@@ -1,6 +1,7 @@
 package com.example.tugas_pertemuan_5
 
-@Composable
+import androidx.compose.runtime.Composable
 
+@Composable
 
 
