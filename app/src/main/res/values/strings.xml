@@ -14,4 +14,8 @@
     <string name="experience_intermediate">Menengah</string>
     <string name="experience_advanced">Mahir</string>
 
+    <string name="proceed">Proceed</string>
+    <string name="select_birth_date">Pilih tanggal lahir</string>
+    <string name="select_date">Pilih</string>
+    <string name="cancel">Batal</string>
 </resources>
