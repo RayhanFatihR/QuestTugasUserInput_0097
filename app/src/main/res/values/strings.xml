@@ -22,7 +22,11 @@
     <string name="email_error">Masukkan alamat email yang valid.</string>
 
     <string name="summary_title">Ringkasan Biodata</string>
-    <string name="full_name">Nama Lengkap</string>
-    <string name="selected_skills">Skill yang Dipilih</string>
     <string name="bacck_to_form">Kembali ke Form</string>
+
+    <string name="full_name_value">%1$s %2$s</string>
+
+    <string name="summary_body">Nama: %1$s\n\nEmail: %2$s\n\nTanggal lahir: %3$s\n\nExperience: %4$s\n\nSkill: %5$s</string>
+
+    <string name="date_pattern" translatable="false">dd/MM/yyyy</string>
 </resources>
