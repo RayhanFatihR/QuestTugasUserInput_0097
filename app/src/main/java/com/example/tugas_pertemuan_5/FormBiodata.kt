@@ -17,6 +17,10 @@ fun FormBiodata(modifier: Modifier = Modifier) {
     var tanggalLahir by remember { mutableStateOf("") }
     var experience by remember { mutableStateOf("") }
 
+    // Menyimpan pilihan checkbox.
+    var skillAndroid by remember { mutableStateOf(false) }
+    var skillUiUx by remember { mutableStateOf(false) }
+    var skillWeb by remember { mutableStateOf(false) }
 
     Box(
         modifier = modifier
