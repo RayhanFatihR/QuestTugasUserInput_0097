@@ -41,6 +41,15 @@ fun FormBiodata(modifier: Modifier = Modifier) {
     val sudutForm = dimensionResource(R.dimen.form_corner)
     val sudutInput = dimensionResource(R.dimen.input_corner)
 
+    // Bobot yang sama membuat kedua kolom memiliki lebar yang sama.
+    val formLengkap =
+    namaDepan.isNotBlank() &&
+            namaBelakang.isNotBlank() &&
+            email.isNotBlank() &&
+            tanggalLahir.isNotBlank() &&
+            experience.isNotBlank() &&
+            (skillAndroid || skillUiUx || skillWeb)
+
 
     Box(
         modifier = modifier
