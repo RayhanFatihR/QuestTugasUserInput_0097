@@ -205,6 +205,124 @@ fun FormBiodata(modifier: Modifier = Modifier) {
                     modifier = Modifier.height(jarakBesar)
                 )
 
+                Text(
+                    text = stringResource(R.string.skill_title),
+                    color = warnaTeks,
+                    fontWeight = FontWeight.Bold
+                )
+
+                // Pilihan skill.
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.SpaceBetween
+                ) {
+
+                    Row(
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
+                        Checkbox(
+                            checked = skillAndroid,
+                            onCheckedChange = {
+                                skillAndroid = it
+                                tampilPesan = false
+                            },
+                            colors = CheckboxDefaults.colors(
+                                checkedColor = ungu
+                            )
+                        )
+
+                        Text(
+                            text = stringResource(R.string.skill_android),
+                            color = warnaTeks,
+                            style = MaterialTheme.typography.bodySmall
+                        )
+                    }
+                    Row(
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
+                        Checkbox(
+                            checked = skillUiUx,
+                            onCheckedChange = {
+                                skillUiUx = it
+                                tampilPesan = false
+                            },
+                            colors = CheckboxDefaults.colors(
+                                checkedColor = ungu
+                            )
+                        )
+
+                        Text(
+                            text = stringResource(R.string.skill_ui_ux),
+                            color = warnaTeks,
+                            style = MaterialTheme.typography.bodySmall
+                        )
+                    }
+
+                    Row(
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
+                        Checkbox(
+                            checked = skillWeb,
+                            onCheckedChange = {
+                                skillWeb = it
+                                tampilPesan = false
+                            },
+                            colors = CheckboxDefaults.colors(
+                                checkedColor = ungu
+                            )
+                        )
+
+                        Text(
+                            text = stringResource(R.string.skill_web),
+                            color = warnaTeks,
+                            style = MaterialTheme.typography.bodySmall
+                        )
+                    }
+                }
+                Spacer(
+                    modifier = Modifier.height(jarakBesar)
+                )
+
+                Button(
+                    onClick = {
+                        tampilPesan = true
+                    },
+                    enabled = formLengkap,
+                    shape = RoundedCornerShape(sudutInput),
+                    colors = ButtonDefaults.buttonColors(
+                        containerColor = ungu,
+                        contentColor = colorResource(R.color.on_primary),
+                        disabledContainerColor = colorResource(
+                            R.color.button_disabled
+                        ),
+                        disabledContentColor = colorResource(
+                            R.color.on_primary
+                        )
+                    ),
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .height(
+                            dimensionResource(R.dimen.button_height)
+                        )
+                ) {
+                    Text(
+                        text = stringResource(R.string.proceed)
+                    )
+                }
+                if (tampilPesan) {
+                    Spacer(
+                        modifier = Modifier.height(jarakKecil)
+                    )
+
+                    Text(
+                        text = stringResource(R.string.form_complete),
+                        color = ungu,
+                        textAlign = TextAlign.Center,
+                        modifier = Modifier.fillMaxWidth()
+                    )
+                }
             }
+        }
+    }
 }
 
