@@ -9,4 +9,9 @@
     <string name="email">Email</string>
     <string name="birth_date">Tgl Lahir</string>
     <string name="experience">Experience</string>
+
+    <string name="experience_beginner">Pemula</string>
+    <string name="experience_intermediate">Menengah</string>
+    <string name="experience_advanced">Mahir</string>
+
 </resources>
