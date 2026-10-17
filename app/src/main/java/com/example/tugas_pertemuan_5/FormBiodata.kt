@@ -130,6 +130,17 @@ fun FormBiodata(modifier: Modifier = Modifier) {
                 )
 
                 // Keterangan.
+                Text(
+                    text = stringResource(R.string.form_description),
+                    color = warnaKeterangan,
+                    style = MaterialTheme.typography.bodySmall,
+                    textAlign = TextAlign.Center,
+                    modifier = Modifier.fillMaxWidth()
+                )
+
+                Spacer(
+                    modifier = Modifier.height(jarakBesar)
+                )
 
             }
 }
