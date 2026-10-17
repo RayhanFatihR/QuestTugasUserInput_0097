@@ -142,6 +142,69 @@ fun FormBiodata(modifier: Modifier = Modifier) {
                     modifier = Modifier.height(jarakBesar)
                 )
 
+                // Nama depan dan nama belakang.
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.spacedBy(jarakKecil)
+                ) {
+
+                    OutlinedTextField(
+                        value = namaDepan,
+                        onValueChange = {
+                            namaDepan = it
+                            tampilPesan = false
+                        },
+                        placeholder = {
+                            Text(
+                                text = stringResource(R.string.first_name)
+                            )
+                        },
+                        singleLine = true,
+                        shape = RoundedCornerShape(sudutInput),
+                        modifier = Modifier.weight(bobotKolom)
+                    )
+
+                    OutlinedTextField(
+                        value = namaBelakang,
+                        onValueChange = {
+                            namaBelakang = it
+                            tampilPesan = false
+                        },
+                        placeholder = {
+                            Text(
+                                text = stringResource(R.string.last_name)
+                            )
+                        },
+                        singleLine = true,
+                        shape = RoundedCornerShape(sudutInput),
+                        modifier = Modifier.weight(bobotKolom)
+                    )
+                }
+                Spacer(
+                    modifier = Modifier.height(jarakBesar)
+                )
+
+                // Email.
+                OutlinedTextField(
+                    value = email,
+                    onValueChange = {
+                        email = it
+                        tampilPesan = false
+                    },
+                    placeholder = {
+                        Text(
+                            text = stringResource(R.string.email)
+                        )
+                    },
+                    singleLine = true,
+                    shape = RoundedCornerShape(sudutInput),
+                    modifier = Modifier.fillMaxWidth()
+                )
+
+                Spacer(
+                    modifier = Modifier.height(jarakBesar)
+                )
+
             }
 }
 
