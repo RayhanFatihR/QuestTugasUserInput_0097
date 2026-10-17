@@ -12,4 +12,6 @@
     <dimen name="space_large">20dp</dimen>
 
     <dimen name="button_height">48dp</dimen>
+
+    <integer name="column_weight">1</integer>
 </resources>
