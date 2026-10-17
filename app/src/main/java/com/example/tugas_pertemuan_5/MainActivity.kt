@@ -20,7 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             Tugas_Pertemuan_5Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    BiodataScreen(
+                    FormBiodata(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
