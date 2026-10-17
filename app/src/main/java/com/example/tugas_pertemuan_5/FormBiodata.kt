@@ -8,6 +8,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.colorResource
+import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.stringResource
 
 @Composable
@@ -33,8 +34,12 @@ fun FormBiodata(modifier: Modifier = Modifier) {
     val warnaTeks = colorResource(R.color.text_primary)
     val warnaKeterangan = colorResource(R.color.text_secondary)
 
-    var tampilPesan by remember { mutableStateOf(false) }
-
+    // Mengambil ukuran dari resources.
+    val jarakKecil = dimensionResource(R.dimen.space_small)
+    val jarakBesar = dimensionResource(R.dimen.space_large)
+    val paddingForm = dimensionResource(R.dimen.form_padding)
+    val sudutForm = dimensionResource(R.dimen.form_corner)
+    val sudutInput = dimensionResource(R.dimen.input_corner)
 
 
     Box(
