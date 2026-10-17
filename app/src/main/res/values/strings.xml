@@ -2,43 +2,19 @@
     <string name="app_name">Tugas_Pertemuan_5</string>
 
     <string name="form_title">Form Biodata</string>
-    <string name="form_description">Silahkan isi biodata anda dibawah ini</string>
+    <string name="form_description">Silahkan isi biodata Anda dibawah ini !!!</string>
 
     <string name="first_name">Nama Depan</string>
-    <string name="last_nama">Nama Belakang</string>
+    <string name="last_name">Nama Belakang</string>
     <string name="email">Email</string>
     <string name="birth_date">Tgl Lahir</string>
     <string name="experience">Experience</string>
-
-    <string name="experience_beginner">Pemula</string>
-    <string name="experience_intermediate">Menengah</string>
-    <string name="experience_advanced">Mahir</string>
-
-    <string-array name="experience_options">
-        <item>@string/experience_beginner</item>
-        <item>@string/experience_intermediate</item>
-        <item>@string/experience_advanced</item>
-    </string-array>
 
     <string name="skill_title">Pilih Skill Anda :</string>
     <string name="skill_android">Android</string>
     <string name="skill_ui_ux">UI/UX</string>
     <string name="skill_web">Web</string>
-    <string name="skill_separator">,\u0020</string>
 
     <string name="proceed">Proceed</string>
-    <string name="select_birth_date">Pilih tanggal lahir</string>
-    <string name="select_date">Pilih</string>
-    <string name="cancel">Batal</string>
-
-    <string name="email_error">Masukkan alamat email yang valid.</string>
-
-    <string name="summary_title">Ringkasan Biodata</string>
-    <string name="bacck_to_form">Kembali ke Form</string>
-
-    <string name="full_name_value">%1$s %2$s</string>
-
-    <string name="summary_body">Nama: %1$s\n\nEmail: %2$s\n\nTanggal lahir: %3$s\n\nExperience: %4$s\n\nSkill: %5$s</string>
-
-    <string name="date_pattern" translatable="false">dd/MM/yyyy</string>
+    <string name="form_complete">Biodata sudah diisi.</string>
 </resources>
