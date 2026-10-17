@@ -14,6 +14,18 @@
     <string name="experience_intermediate">Menengah</string>
     <string name="experience_advanced">Mahir</string>
 
+    <string-array name="experience_options">
+        <item>@string/experience_beginner</item>
+        <item>@string/experience_intermediate</item>
+        <item>@string/experience_advanced</item>
+    </string-array>
+
+    <string name="skill_title">Pilih Skill Anda :</string>
+    <string name="skill_android">Android</string>
+    <string name="skill_ui_ux">UI/UX</string>
+    <string name="skill_web">Web</string>
+    <string name="skill_separator">,\u0020</string>
+
     <string name="proceed">Proceed</string>
     <string name="select_birth_date">Pilih tanggal lahir</string>
     <string name="select_date">Pilih</string>
