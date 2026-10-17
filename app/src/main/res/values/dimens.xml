@@ -2,4 +2,8 @@
 <resources>
     <dimen name="header_height">230dp</dimen>
     <dimen name="form_top_offset">200dp</dimen>
+
+    <dimen name="form_padding">24dp</dimen>
+    <dimen name="form_corner">28dp</dimen>
+    <dimen name="form_shadow">8dp</dimen>
 </resources>
