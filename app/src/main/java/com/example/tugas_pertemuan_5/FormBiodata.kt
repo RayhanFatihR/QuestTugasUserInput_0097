@@ -95,8 +95,42 @@ fun FormBiodata(modifier: Modifier = Modifier) {
                     bottom = paddingForm
                 )
         ) {
+            Column(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .shadow(
+                        elevation = dimensionResource(R.dimen.form_shadow),
+                        shape = RoundedCornerShape(
+                            topStart = sudutForm,
+                            topEnd = sudutForm
+                        )
+                    )
+                    .background(
+                        color = putih,
+                        shape = RoundedCornerShape(
+                            topStart = sudutForm,
+                            topEnd = sudutForm
+                        )
+                    )
+                    .padding(paddingForm)
+            ) {
 
-        }
+                // Judul
+                Text(
+                    text = stringResource(R.string.form_title),
+                    color = ungu,
+                    style = MaterialTheme.typography.headlineSmall,
+                    fontWeight = FontWeight.Bold,
+                    textAlign = TextAlign.Center,
+                    modifier = Modifier.fillMaxWidth()
+                )
 
+                Spacer(
+                    modifier = Modifier.height(jarakKecil)
+                )
+
+                // Keterangan.
+
+            }
 }
 
