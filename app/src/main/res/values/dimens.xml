@@ -6,4 +6,8 @@
     <dimen name="form_padding">24dp</dimen>
     <dimen name="form_corner">28dp</dimen>
     <dimen name="form_shadow">8dp</dimen>
+
+    <dimen name="input_corner">14dp</dimen>
+    <dimen name="space_small">8dp</dimen>
+    <dimen name="space_large">20dp</dimen>
 </resources>
