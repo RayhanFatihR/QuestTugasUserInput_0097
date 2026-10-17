@@ -10,4 +10,6 @@
     <dimen name="input_corner">14dp</dimen>
     <dimen name="space_small">8dp</dimen>
     <dimen name="space_large">20dp</dimen>
+
+    <dimen name="button_height">48dp</dimen>
 </resources>
