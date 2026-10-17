@@ -54,12 +54,28 @@ fun FormBiodata(modifier: Modifier = Modifier) {
     Box(
         modifier = modifier
             .fillMaxSize()
-            .safeDrawingPadding(),
-        contentAlignment = Alignment.Center
+            .safeDrawingPadding()
     ) {
-        Text(
-            text = stringResource(R.string.form_title)
-        )
-    }
+
+        // Scaffold sebagai lapisan belakang.
+        Scaffold(
+            modifier = Modifier.fillMaxSize(),
+            containerColor = putih
+        ) { innerPadding ->
+
+            Image(
+                painter = painterResource(R.drawable.background_form),
+                contentDescription = null,
+                contentScale = ContentScale.Crop,
+                modifier = Modifier
+                    .padding(innerPadding)
+                    .fillMaxWidth()
+                    .height(
+                        dimensionResource(R.dimen.header_height)
+                    )
+            )
+        }
+
+
 }
 
