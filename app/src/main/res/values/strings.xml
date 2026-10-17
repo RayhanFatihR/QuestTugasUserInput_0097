@@ -3,4 +3,10 @@
 
     <string name="form_title">Form Biodata</string>
     <string name="form_description">Silahkan isi biodata anda dibawah ini</string>
+
+    <string name="first_name">Nama Depan</string>
+    <string name="last_nama">Nama Belakang</string>
+    <string name="email">Email</string>
+    <string name="birth_date">Tgl Lahir</string>
+    <string name="experience">Experience</string>
 </resources>
