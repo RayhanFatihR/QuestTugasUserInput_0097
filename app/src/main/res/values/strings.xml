@@ -18,4 +18,11 @@
     <string name="select_birth_date">Pilih tanggal lahir</string>
     <string name="select_date">Pilih</string>
     <string name="cancel">Batal</string>
+
+    <string name="email_error">Masukkan alamat email yang valid.</string>
+
+    <string name="summary_title">Ringkasan Biodata</string>
+    <string name="full_name">Nama Lengkap</string>
+    <string name="selected_skills">Skill yang Dipilih</string>
+    <string name="bacck_to_form">Kembali ke Form</string>
 </resources>
